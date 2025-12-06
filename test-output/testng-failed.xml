@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testNG.TestNG_K_CrossBrowsertesting">
+        <methods>
+          <include name="googleSelenium"/>
+          <include name="facebook"/>
+          <include name="selenium"/>
+          <include name="googlesearch"/>
+          <include name="googletestBeng"/>
+          <include name="googletechlearn"/>
+          <include name="openBrowser"/>
+          <include name="googletest"/>
+        </methods>
+      </class> <!-- testNG.TestNG_K_CrossBrowsertesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
