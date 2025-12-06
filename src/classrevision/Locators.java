@@ -14,6 +14,7 @@ class Locators {
 	static void setUpBeforeClass() throws Exception {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		// this is a comment line
 	}
 
 	@Disabled	
