@@ -15,6 +15,7 @@ class Locators {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		// this is a comment line
+		// this is another comment line
 	}
 
 	@Disabled	
