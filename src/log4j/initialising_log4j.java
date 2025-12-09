@@ -28,6 +28,7 @@ public class initialising_log4j {
 	  
 	  driver.navigate().to("https://www.techlearn.in/admin");
 	  log.info("navigated to the techlearn admin site");
+	  // the line navigated to the techlearn admin site
 	  
 	  driver.quit();
 	  
