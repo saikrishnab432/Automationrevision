@@ -15,7 +15,7 @@ public class DropdownMethods_Using_Selenium {
 
 	@Test
 	public void dropdownmethod() throws InterruptedException {
-		driver.get("https://www.redmine.org/account/register");
+		driver.get("https://www.redmine.org/account/register");  // checking
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"user_mail\"]")).sendKeys("saib@yahoo.in");
 		Thread.sleep(2000);
