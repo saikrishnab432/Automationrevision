@@ -14,7 +14,7 @@ public class ActionClass {
 
 	@Test
 	public void rightclick() {
-		driver.get("https://www.techlearn.in");
+		driver.get("https://www.techlearn.in");   // It is a sample add on to the extension
 		Actions act = new Actions(driver);
 		act.contextClick(driver.findElement(By.xpath("//*[@id=\"mega-menu-item-4703\"]/a"))).build().perform();
 
